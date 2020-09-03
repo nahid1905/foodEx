@@ -1,0 +1,11 @@
+[
+    {"id": 1, "title": "Margarita Pizza", "ingredients": "Tomato, cheeze", "price": 15,
+       "img": "https://s3-alpha-sig.figma.com/img/5659/edfb/d1a6136160da6c0822669245e109e1b7?Expires=1600041600&Signature=RsJrna-lKSRZzYzDprOST7FWzmgfwxFzGzE0IVKVFp9K274SNS2B3TCagq31cbmMEQmUuQsXlP7qkUTTslSdYuFZK0giMYpzdEYHHQPxvI5ljlQjaWIbSRkFs7pa1Mq4ujD70DQ-ZUJ1iB3Npc8VrmGcJK0e74O90gVm0wSquN2CEBl59tdIo-NBfd0GAbRbh7rMh854fhjGmtVwwE1pyo4KsylqU~uxyhwoDFipv47PKQmlFFz9ki9Rnr1H23~MmQypCiDsr6DgY8FPaaiIKJBzDIPxJR2xH~03urVI0nhYl7y8p1AIZ6xcNV9dMsGuFfhVUxlezEo5NEjOLGyKNg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+        "selectedCount": 1},
+    {"id": 2, "title": "Pancakes", "ingredients": "Flour, white sugar, milk, vegetable oil", "price": 12,
+        "img":"https://s3-alpha-sig.figma.com/img/2a83/0f46/172c04beb89a376e2d685411608364e0?Expires=1600041600&Signature=FvuxnRiLpNEaV6N1uudE46DV3c1s~i3~m7nr9tvF~3FmYxwvCE1ObJU7rdNzQ2P1lxyQEvAEm~L18AOVPF3PQ2M3MNKshSMDKnng6HMDIU6nAxgs0FH4PLUCcT1uOofwco3hbzA~yNGNziG1dqPFABHGQ1RCBLc00FjJeWVt78akMqdvdNQHEbFIP-J4okYQquEjgSWKrUrzcj9cQu~16q2e-q18IxzpdZEWUQxgxDZBQxlwPYBiOT8iN1onmYnMYdYKGvhSsQ-apQjdLvUIPs7EVZpwHitQkestPM6O9Pq65bRWn7cXhrh38MaOv7f9uRad3j6vlkUJN5LXJUkY4w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA", 
+        "selectedCount": 1},
+    {"id": 3, "title": "Club sandwich", "ingredients": "Sliced tomato, beetroot, horseradish sauce, mayonnaise, ketchup, handful iceberg lettuce, rocket, watercress", "price": 9, 
+        "img": "https://s3-alpha-sig.figma.com/img/1806/e7ba/4569031a4bd4a35dbfa7707c129e387f?Expires=1600041600&Signature=ap8TXvlpi0PR9cppXhOZMCzdjP1q4WCXVmTOdD2VVRIpxzoxVF-Ow7veXiqGQTSAuf9bz3QH02GOtV4QB1geTl14Vkel57jBvpyhwUuaLNGGqzCsf8Cvve4H0R~86qEv1ny3WLhmmWSS-FN7WFWLTb2qEbBnImOU~06BRMpMfqn3HfumXPwDOmNnH8utSmHUKdZ8ele3J0PEnWBeFLEBKsMSFr9cnNXONxbUluKW9OqWddf6XFQgstPOLG8OQVcTyiV7cYH6~zJuoMzN4ntw9WhpewVW957ROSOn752S4huVKEsejfGs9LbSRi~B9l76HstdKGqh8-ibKyUzGpj8tQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA", 
+        "selectedCount": 1}
+]

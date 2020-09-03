@@ -1,0 +1,121 @@
+.food{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.food .grid-container{
+    display: grid;
+    grid-template-columns:  auto auto;
+    padding: 0;
+    gap: 25px;
+    grid-template-columns: 1fr minmax(100px, 1fr);
+}
+.image{
+    position: absolute;
+    width: 50%;
+
+    height: 100%;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    background:  #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+}
+.about{
+    padding: 50px 20px 30px 0px;
+}
+.about .title{
+    /* margin-bottom: 100px; */
+}
+.about .title h3{
+    font-size: 20px;
+    line-height: 24px;
+    color: #212121;
+    margin-bottom: 15px;
+}
+.about .title h3 span{
+    font-size: 20px;
+    line-height: 24px;
+    color: #212121;
+    float: right;
+}
+.about .title p{
+    font-size: 13px;
+    line-height: 16px;
+    color: #757575;
+}
+.about .actions{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.actions .add button{
+    position: absolute;
+    background: #2F8BE6;
+    border: 1px solid #2F8BE6;
+    box-sizing: border-box;
+    border-radius: 29px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 15px 40px;
+    right: 0px;
+    bottom: 0px;
+}
+.actions .count{
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 29px;
+    font-size: 23px;
+    line-height: 27px;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px 80px;
+    height: 45px;
+    width: 69px;
+}
+.actions .count div{
+    position: absolute;
+    background-color: rgba(47, 139, 230, 0.28);
+    color: #2F8BE6;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 100%;
+    top: 50%;
+    transform:translateY(-50%);
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    cursor: pointer;
+    /* margin: 3px; */
+}
+.count .minus{
+    left: 0%;
+}
+.count .plus{
+    right: 0%;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+    .food .container{
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .food .grid-container {
+        grid-template-columns:  auto;
+    }
+    .image{
+        width: 100%;
+        height: 274px;
+        position: static;
+    }
+}

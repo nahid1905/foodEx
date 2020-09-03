@@ -1,0 +1,113 @@
+.basket{
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+.basket>h1{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 27px;
+    color: rgba(33, 33, 33, 0.75);
+    margin-bottom: 80px;
+}
+.basket h2{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #212121;
+}
+.items{
+    height: 530px;
+    overflow-y: auto;
+}
+.selected-item{
+    position: relative;
+}
+.selected-item hr{
+    width: 94%;
+    background-color:#DEDEDE;
+}
+.selected-item:not(:first-child) h2{
+    margin-top: 55px;
+}
+.selected-item:last-child hr{
+    display: none;
+}
+.selected-item i{
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    right: 0;
+    font-size: 25px;
+    color: #C2CFE0;
+    cursor: pointer;
+    transition: linear;
+}
+.selected-item i:hover{
+    color: red;
+}
+.selected-item .count{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2F8BE6;
+    margin-left: 20px;
+}
+.selected-item p{
+    font-size: 13px;
+    line-height: 16px;
+    color: #757575;
+    margin-top: 15px;
+    width: 200px;
+    margin-bottom: 40px;
+}
+.total hr{
+    width: 94%;
+    background-color:#DEDEDE;
+    margin: 0px auto;
+}
+.total h2{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #212121;
+    margin-top: 35px;
+}
+.total .total-price{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2F8BE6;
+    float: right;
+}
+.check-out{
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+.check-out button{
+    position: absolute;
+    background: #2F8BE6;
+    border: 1px solid #2F8BE6;
+    box-sizing: border-box;
+    border-radius: 29px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 40px;
+    margin: 65px 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media only screen and (max-width: 767px){
+    .selected-item h2 span{
+        margin-left: 7px;
+    }
+    .selected-item p{
+        width: 150px;
+    }
+}

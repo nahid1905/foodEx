@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@font-face {
+    font-family: SF Pro Display Semibold;
+    src: url("/assets/fonts/SFProDisplay-Semibold.ttf") format("opentype");
+}
+
+body{
+    font-family: SF Pro Display Semibold;
+    background-color:  #E5E5E5;
+    font-style: normal;
+    font-weight: normal;
+}

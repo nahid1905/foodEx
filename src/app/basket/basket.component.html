@@ -1,0 +1,30 @@
+<div class="basket">
+    <h1 class="text-center">Basket</h1>
+    <div class="items">
+        <div *ngFor="let item of selectedFoods" class="selected-item" >
+            <div *ngIf="item.selectedCount != 0">
+                <h2> {{item.title}} <span class="count">x{{item.selectedCount}}</span></h2>
+                <p>{{item.ingredients}}</p>
+                <i class="fa fa-trash" (click)="delete(item.id)"></i>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="total">
+        <hr>
+        <h2>Total <span class="total-price">$ {{totalPrice}}</span></h2>
+    </div>
+    <div class="check-out">
+        <button class="btn btn-primary"  [disabled]="clicked" (click)="check(); clicked = true;">Check out</button>
+    </div>
+
+    <div class="msg-info">
+        <div  *ngIf="showMsg">
+            <div>
+                <p class="alert alert-success">
+                    <strong>Success operation!</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

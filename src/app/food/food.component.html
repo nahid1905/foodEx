@@ -1,0 +1,33 @@
+<div class="food" *ngFor='let food of foods'>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="image">
+                <img src={{food.img}} alt={{food.title}}>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="container">
+                <div class="about">
+                    <div class="title">
+                        <h3>{{food.title}}  <span class="price"> ${{food.price}} </span></h3>
+                        <p>{{food.ingredients}}</p>
+                    </div>
+                    <div class="actions">
+    
+                        <!-- If item hasn't been add to the cart button visible -->
+                        <div class="add" *ngIf='food.selectedCount == 0'>
+                            <button class="btn btn-primary" (click)="plus(food.id)">Add to cart</button>
+                        </div>
+    
+                        <!-- If item has been add to the cart at least one time show this -->
+                        <div class="count" *ngIf='food.selectedCount != 0'>
+                            <div class="minus" (click)="minus(food.id)"> - </div> 
+                            <span> {{food.selectedCount}} </span> 
+                            <div class="plus" (click)="plus(food.id)">+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

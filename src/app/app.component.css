@@ -1,0 +1,12 @@
+.main .grid-container{
+    display: grid;
+    grid-template-columns:  auto auto;
+    padding: 0;
+    gap: 25px;
+    grid-template-columns: 1fr minmax(100px, 1fr);
+}
+@media only screen and (max-width: 991px) {
+    .main .grid-container {
+        grid-template-columns:  auto;
+    }
+}
